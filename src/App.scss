@@ -1,0 +1,45 @@
+// imports some default - opinionated - styling
+@import url(sanitize.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap");
+
+:root {
+  --lg: 768px;
+  --color-background: #232946;
+  --color-background-opaque: rgba(35, 41, 70, 0.5);
+  --color-text: #f2f2f2;
+  --color-main: #eebbc3;
+  --color-accent: #b8c1ec;
+  --spacing-gutter: 4rem;
+  --spacing-gutter-sm: calc(var(--spacing-gutter) / 2);
+  --rounded-corners: 1rem;
+  --layer-5: 999;
+  --layer-6: 9999;
+  --font-bold: 900;
+  --font-med: 500;
+  --font-main: "Roboto", sans-serif;
+}
+
+html,
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  min-height: 100vh;
+  font-family: var(--font-main);
+  h1 {
+    text-align: center;
+  }
+}
+
+body {
+  padding: var(--spacing-gutter);
+  font-weight: var(--font-med);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-bold);
+}

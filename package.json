@@ -1,0 +1,32 @@
+{
+  "name": "modal-in-solidjs-with-typescript",
+  "version": "0.0.2",
+  "description": "This repo contains the completed code for the @AdamAnSubtractM 'How to make a Modal in SolidJS with Typescript' tutorial.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.7.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "solid-adamansubtractm/typescript"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-solid-adamansubtractm": "^0.0.4",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0",
+    "vite-plugin-solid": "^2.3.0"
+  },
+  "dependencies": {
+    "sanitize.css": "^13.0.0",
+    "solid-js": "^1.4.7"
+  }
+}
