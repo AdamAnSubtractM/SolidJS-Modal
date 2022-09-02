@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://adamknee.dev">
+    <img alt="Adam Knee's Logo" src="https://res.cloudinary.com/adamansubtractm/image/upload/r_20/v1662130192/github/logo-w-banner-blue_raujqx.svg" width="2000" />
+  </a>
+</p>
+
 # Modal in SolidJS with Typescript
 
 This repo contains the completed code for the [@AdamAnSubtractM](https://www.youtube.com/channel/UC-lCMRPcFiDJfUMYTNkmeFw) "How to make a Modal in SolidJS with Typescript" tutorial.
@@ -9,7 +15,7 @@ This repo contains the completed code for the [@AdamAnSubtractM](https://www.you
 
 ## Using and Installing a Node Version Manager
 
-First things first, if you're not already using a node version manager, you're doing yourself a serious disservice. A node manager will change your life! A node manager allows you to easily and quickly switch between versions of node. This is sometimes important depending on the project you're working on. 
+First things first, if you're not already using a node version manager, you're doing yourself a serious disservice. A node manager will change your life! A node manager allows you to easily and quickly switch between versions of node. This is sometimes important depending on the project you're working on.
 
 ### Windows Users
 
@@ -29,6 +35,7 @@ nvm use 18.7.0
 You have a few options for a node manager as a Mac user. `nvm` and `n`. Personally, I prefer the latter option, `n`. Bullet point number 1 will cover the `nvm` installation and bullet point number 2 [my preference] will cover the `n` installation.
 
 - [Choice 1] - To install `nvm`, you can do it a few ways:
+
   - [Option 1] - Using `curl`:
 
     ```bash
@@ -57,7 +64,8 @@ You have a few options for a node manager as a Mac user. `nvm` and `n`. Personal
     ```
 
 - [Choice 2] - My preference - To install `n`, you can do it a few ways:
-  - [Option 1] - Using `npm` (this *only* works if you already have a version of node installed):
+
+  - [Option 1] - Using `npm` (this _only_ works if you already have a version of node installed):
 
     ```bash
     npm i -g n
@@ -90,21 +98,21 @@ iwr https://get.pnpm.io/install.ps1 -useb | iex
 
 - [Option 1] - Using `curl`:
 
-    ```bash
-    curl -fsSL https://get.pnpm.io/install.sh | sh -
-    ```
+  ```bash
+  curl -fsSL https://get.pnpm.io/install.sh | sh -
+  ```
 
 - [Option 2] - Using `wget`:
 
-    ```bash
-    wget -qO- https://get.pnpm.io/install.sh | sh -
-    ```
+  ```bash
+  wget -qO- https://get.pnpm.io/install.sh | sh -
+  ```
 
 - [Option 3] - Using `hombrew`:
 
-    ```bash
-    brew install pnpm
-    ```
+  ```bash
+  brew install pnpm
+  ```
 
 ## SolidJS/Project Info
 
