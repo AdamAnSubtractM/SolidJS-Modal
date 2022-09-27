@@ -6,7 +6,7 @@
 
 # Modal in SolidJS with Typescript
 
-This repo contains the completed code for the [@AdamAnSubtractM](https://www.youtube.com/channel/UC-lCMRPcFiDJfUMYTNkmeFw) "How to make a Modal in SolidJS with Typescript" tutorial.
+This repo contains the completed code for the [@AdamAnSubtractM](https://youtu.be/HSoRtowmOEY) "How to make a Modal in SolidJS with Typescript" tutorial.
 
 ## Prerequisites
 
